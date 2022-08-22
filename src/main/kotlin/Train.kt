@@ -39,6 +39,17 @@ fun main() {
 //        println("Update operation failed")
 //    }
 
+//deletig record
+//     query ="delete from train where trin_id=11
+//     statement = connection.createStatement()
+//     result=statement.executeUpdate(query)
+//     if(result>0){
+//       println("Data deleted successfully")
+//     }else{
+//       println("failed to delete due of foreign key constrain")
+//       return
+//     }
+
     //displaying table
     query="select * from train"
     statement=connection.createStatement()
