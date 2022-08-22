@@ -39,8 +39,8 @@ fun main() {
 //        println("Update operation failed")
 //    }
 
-//deletig record
-//     query ="delete from train where trin_id=11
+//deleting record
+//     query ="delete from train where train_id=11
 //     statement = connection.createStatement()
 //     result=statement.executeUpdate(query)
 //     if(result>0){
