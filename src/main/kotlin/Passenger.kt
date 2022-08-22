@@ -38,6 +38,17 @@ fun main() {
 //        println("Failed to update ")
 //    }
 
+//deleting record
+//     query ="delete from train where passenger_id=7
+//     statement = connection.createStatement()
+//     result=statement.executeUpdate(query)
+//     if(result>0){
+//       println("Data deleted successfully")
+//     }else{
+//       println("failed to delete due of foreign key constrain")
+//       return
+//     }
+
     //displaying all the values
     query="select * from passengers"
     statement=connection.createStatement()
